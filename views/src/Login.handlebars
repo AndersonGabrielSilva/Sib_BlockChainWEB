@@ -1,0 +1,71 @@
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light shadow-lg" style="background-color: white;">
+        <button class="btn" id="menu-toggle"><span class="navbar-toggler-icon"></span></button> <i class="fas fa-home"></i>
+
+      </nav>
+      
+      <div class="jumbotron" style="background-image: linear-gradient(#395d7c, rgb(33, 55, 82));">
+        <div class="text-center" >
+          <form class="form-signin">
+            <h1 class="h3 mb-3 font-weight-normal text-white">Acessar com E-mail</h1>
+            <label for="inputEmail" class="sr-only">E-mail</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus>
+            <label for="inputPassword" class="sr-only">Senha</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+            <div class="mb-3">
+              <label class="text-white">
+                <a href=""><p class="text-white">Esqueceu sua senha?</p></a>
+              </label>
+              <button class="btn btn-lg btn-warning btn-block" type="submit">ENTRAR</button>
+            </div>
+            <div class="mb-3">
+              <label class="text-white">
+                <a href=""><p class="text-white">Ou acesse com</p></a>
+              </label>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">FACEBOOK</button>
+            </div>
+
+            <label class="text-white">
+              <p>Não tem uma conta? <a href="/cadastro" class="text-warning">Criar Conta</a></p>
+            </label>
+          </form>
+        </div> 
+
+      
+<br><br>
+
+
+<!-- FOOTER -->
+<footer class="container text-muted">
+  <p>&copy; Help Technology - Tecnologia em Soluções Digitais</p>
+</footer>
+  
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $(".menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

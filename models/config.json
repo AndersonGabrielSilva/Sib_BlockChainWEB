@@ -1,0 +1,12 @@
+{
+    "development": {
+        "dialect": "postgres",
+        "port": 5432,
+        "host": "localhost",
+        "schema": "dbo",
+        "database": "SIB_Blockchain",
+        "username": "postgres",
+        "password": "1498",
+        "logging": true
+    }
+}
